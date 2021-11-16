@@ -24,7 +24,6 @@ leftBtn.addEventListener('click', ()=> {
     setBgToBody()
 })
 
-
 function setBgToBody(){
     body.style.backgroundImage = sliders[activeSlide].style.backgroundImage;
 }
